@@ -1,0 +1,9 @@
+language: "it"
+
+meta:
+  title: "Calzature Alber - Negozio di calzature a Scena"
+  description: "Il vostro neogzio to calzature a Scena."
+  keywords: "Calze, camminare, Scena, Merano, Alto Adige"
+
+body:
+  nothing: "niente"

@@ -1,0 +1,9 @@
+language: "de"
+
+meta:
+  title: "Schuhe Alber - Schuhgeschäft Schenna"
+  description: "Ihr Schuhgeschäft in Schenna."
+  keywords: "Schuhe, Wandern, Schenna, Meran, Süd Tirol"
+
+body:
+  nothing: "nichts"
