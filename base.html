@@ -9,15 +9,20 @@
     <link rel="manifest" href="/site.webmanifest">
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#2d89ef">
-    <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" type="text/css" href="assets/output.css"> -->
+    <meta name="theme-color" content="#ffffff"> -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <title>{{ meta.title }}</title>
     <meta name="title" content="{{ meta.title }}">
     <meta name="description" content="{{ meta.description }}">
     <meta name="keywords" content="{{ meta.keywords }}">
 </head>
 <body>
+    <header>
+        <h1>{{ meta.title }}</h1>
+        <p><a href="/de.html">DE</a> - <a href="/it.html">IT</a> - <a href="/en.html">EN</a> </p>
+    </header>
     <p>{{ body.nothing }}</p>
+    <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=11.18556797504425%2C46.68948649268509%2C11.18905484676361%2C46.691157065475146&amp;layer=mapnik&amp;marker=46.69032178553901%2C11.18731141090393" style="border: 1px solid black"></iframe><br/>
 </body>
 </html>
 

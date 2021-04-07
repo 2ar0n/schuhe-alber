@@ -5,6 +5,7 @@ import re
 lang_files = ["de.yaml", "it.yaml", "en.yaml"]
 
 base_file = "base.html"
+target_dir = "_site"
 
 for lang_file in lang_files:
 
@@ -23,7 +24,10 @@ for lang_file in lang_files:
 
     text = re.sub("{{(.*?)}}", from_yaml(lang_yaml), html)
 
-    target_file = "_site/" + lang_file.split(".")[0] + ".html"
+    target_file = target_dir + "/" + lang_file.split(".")[0] + ".html"
     open(target_file, "w").write(text)
 
     print(f"Generated page from {lang_file}")
+
+copyfile("index.html", target_dir + "/index.html")
+copyfile("styles.css", target_dir + "/styles.css")
