@@ -526,6 +526,10 @@ video {
   --tw-ring-shadow: 0 0 #0000;
 }
 
+.w-5 {
+  width: 1.25rem;
+}
+
 @keyframes spin {
   to {
     transform: rotate(360deg);

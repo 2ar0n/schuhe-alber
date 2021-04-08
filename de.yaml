@@ -10,7 +10,8 @@ body:
   access:
     title: "Zugang"
     adress: "Erzherzog Johann Platz 5, 39017 Schenna"
-    phone: "+39-473-945-644 / +39-335-704-4575"
+    phone: "+39-473-945-644"
+    mobile: "+39-335-704-4575"
     email: "schuhe.alber@rolmail.net"
     hours: "9:00-18:00"
   about:

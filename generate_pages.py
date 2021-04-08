@@ -1,4 +1,5 @@
-from shutil import copyfile
+import os
+from shutil import copyfile, copytree, rmtree
 import yaml
 import re
 import argparse
@@ -43,3 +44,6 @@ for lang_file in lang_files:
 
 copyfile("index.html", target_dir + "/index.html")
 copyfile("styles.css", target_dir + "/styles.css")
+if os.path.exists(target_dir + "/assets"):
+    rmtree(target_dir + "/assets")
+copytree("assets", target_dir + "/assets")
