@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 import os
 from shutil import copyfile, copytree, rmtree
 import yaml
