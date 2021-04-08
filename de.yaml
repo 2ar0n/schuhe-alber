@@ -6,4 +6,24 @@ meta:
   keywords: "Schuhe, Wandern, Schenna, Meran, Süd Tirol"
 
 body:
-  nothing: "nichts"
+  introduction: "Ihr Schuhgeschäft in Schenna oberhalb Meran mit einem reichen Sortiment an Stadt- und Wanderschuhe für die ganze Familie."
+  access:
+    title: "Zugang"
+    adress: "Erzherzog Johann Platz 5, 39017 Schenna"
+    phone: "+39-0473-000-000"
+    email: "email@email.com"
+    hours: "9:00-18:00"
+  about:
+    title: "Über uns"
+    story:
+      title: "Geschichte"
+      content: "Text zur Geschichte"
+    team:
+      title: "Team"
+      content: "Text zum Team"
+  workshop:
+    title: "Werkstatt"
+    content: "Schuhreparatur OK"
+  sortiment:
+    title: "Sortiment"
+    content: "La sportiva, Scarpa, Salomon"
