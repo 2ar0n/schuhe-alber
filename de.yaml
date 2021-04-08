@@ -6,10 +6,13 @@ meta:
   keywords: "Schuhe, Wandern, Schenna, Meran, Süd Tirol"
 
 body:
+  tagline: "Dein nächstes Paar Schuhe"
   introduction: "Ihr Schuhgeschäft in Schenna oberhalb Meran mit einem reichen Sortiment an Stadt- und Wanderschuhe für die ganze Familie."
   access:
     title: "Zugang"
-    adress: "Erzherzog Johann Platz 5, 39017 Schenna"
+    adress:
+      l1: "Erzherzog Johann Platz 5"
+      l2: "39017 Schenna"
     phone: "+39-473-945-644"
     mobile: "+39-335-704-4575"
     email: "schuhe.alber@rolmail.net"

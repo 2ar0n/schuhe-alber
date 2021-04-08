@@ -17,31 +17,61 @@
     <meta name="keywords" content="{{ meta.keywords }}">
 </head>
 <body>
-    <header>
-        <h1>{{ meta.title }}</h1>
-        <p><a href="/de.html">DE</a> - <a href="/it.html">IT</a> - <a href="/en.html">EN</a></p>
-    </header>
-    <p>{{ body.introduction }}</p>
-
-    <h1>{{ body.access.title }}</h1>
-    <p>{{ body.access.adress }}</p>
-    <p>{{ body.access.phone }}</p>
-    <p><img src="/assets/whatsapp.svg" class="w-5"> {{ body.access.mobile }}</p>
-    <p>{{ body.access.email }}</p>
-    <p>{{ body.access.hours }}</p>
-    <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=11.18556797504425%2C46.68948649268509%2C11.18905484676361%2C46.691157065475146&amp;layer=mapnik&amp;marker=46.69032178553901%2C11.18731141090393" style="border: 1px solid black"></iframe><br/>
-
-    <h1>{{ body.about.title }}</h1>
-    <h2>{{ body.about.story.title }}</h2>
-    <p>{{ body.about.story.content }}</p>
-    <h2>{{ body.about.team.title }}</h2>
-    <p>{{ body.about.team.content }}</p>
-
-    <h1>{{ body.workshop.title }}</h1>
-    <p>{{ body.workshop.content }}</p>
-
-    <h1>{{ body.sortiment.title }}</h1>
-    <p>{{ body.sortiment.content }}</p>
+    <div class="w-full bg-yellow-50">
+        <nav class="md:flex items-center justify-between py-2 px-8 md:px-12">
+            <div class="flex justify-between items-center">
+                <div class="text-2xl font-bold text-gray-800 md:text-3xl">
+                        <a href="#">{{ meta.title }}</a>
+                </div>
+            </div>
+            <div class="flex flex-row -mx-2">
+                <a href="/de.html" class="text-gray-800 rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2">DE</a>
+                <a href="/it.html" class="text-gray-800 rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2">IT</a>
+                <a href="/en.html" class="text-gray-800 rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2">EN</a>
+            </div>
+        </nav>
+        <div class="flex" style="height:600px;">
+            <div class="flex items-center text-center lg:text-left px-8 md:px-12 lg:w-1/2">
+                <div>
+                    <h2 class="text-3xl font-semibold text-gray-800 md:text-4xl">{{ body.tagline }}</h2>
+                    <p class="mt-2 text-sm text-gray-500 md:text-base">{{ body.introduction }}</p>
+                    <div class="flex justify-center lg:justify-start mt-6">
+                        <a class="px-4 py-3 bg-gray-900 text-gray-200 text-xs font-semibold rounded hover:bg-gray-800" href="#access">{{ body.access.title }}</a>
+                        <a class="mx-4 px-4 py-3 bg-gray-300 text-gray-900 text-xs font-semibold rounded hover:bg-gray-400" href="#sortiment">{{ body.sortiment.title }}</a>
+                    </div>
+                </div>
+            </div>
+            <div class="hidden lg:block lg:w-1/2" style="clip-path:polygon(10% 0, 100% 0%, 100% 100%, 0 100%)">
+                <div class="h-full object-cover" style="background-image: url(https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80)">
+                    <div class="h-full bg-black opacity-25"></div>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col md:flex-row justify-around items-start rounded-lg bg-gray-300 p-10 m-10">
+            <div class="">
+                <h2 id="access" class="text-3xl font-semibold text-gray-800 md:text-4xl">{{ body.access.title }}</h2>
+                <p>{{ body.access.adress.l1 }}</p>
+                <p>{{ body.access.adress.l2 }}</p>
+                <p><img src="/assets/phone.svg" class="w-5 float-left"> {{ body.access.phone }}</p>
+                <p><img src="/assets/whatsapp.svg" class="w-5 float-left"> {{ body.access.mobile }}</p>
+                <p>{{ body.access.email }}</p>
+                <p>{{ body.access.hours }}</p>
+            </div>
+            <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=11.18556797504425%2C46.68948649268509%2C11.18905484676361%2C46.691157065475146&amp;layer=mapnik&amp;marker=46.69032178553901%2C11.18731141090393" style="border: 1px solid black"></iframe>
+        </div>
+        
+            <h2 class="text-3xl font-semibold text-gray-800 md:text-4xl">{{ body.about.title }}</h2>
+            <h3 class="text-xl font-semibold text-gray-800 md:text-2xl">{{ body.about.story.title }}</h3>
+            <p>{{ body.about.story.content }}</p>
+            <h3 class="text-xl font-semibold text-gray-800 md:text-2xl">{{ body.about.team.title }}</h3>
+            <p>{{ body.about.team.content }}</p>
+        
+            <h2 class="text-3xl font-semibold text-gray-800 md:text-4xl">{{ body.workshop.title }}</h2>
+            <p>{{ body.workshop.content }}</p>
+        
+            <h2 id="sortiment" class="text-3xl font-semibold text-gray-800 md:text-4xl">{{ body.sortiment.title }}</h2>
+            <p>{{ body.sortiment.content }}</p>
+    </div>
 </body>
 </html>
 
