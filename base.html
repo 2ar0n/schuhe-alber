@@ -47,8 +47,8 @@
                 </div>
             </div>
         </div>
-        <div class="flex flex-col md:flex-row justify-around items-start rounded-lg bg-gray-300 p-10 m-10">
-            <div class="">
+        <div class="flex flex-col md:flex-row justify-between items-start bg-gray-300 shadow-lg p-10">
+            <div class="w-1/2">
                 <h2 id="access" class="text-3xl font-semibold text-gray-800 md:text-4xl">{{ body.access.title }}</h2>
                 <p>{{ body.access.adress.l1 }}</p>
                 <p>{{ body.access.adress.l2 }}</p>
@@ -57,20 +57,29 @@
                 <p>{{ body.access.email }}</p>
                 <p>{{ body.access.hours }}</p>
             </div>
-            <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=11.18556797504425%2C46.68948649268509%2C11.18905484676361%2C46.691157065475146&amp;layer=mapnik&amp;marker=46.69032178553901%2C11.18731141090393" style="border: 1px solid black"></iframe>
+            <iframe class="w-full" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=11.18556797504425%2C46.68948649268509%2C11.18905484676361%2C46.691157065475146&amp;layer=mapnik&amp;marker=46.69032178553901%2C11.18731141090393" style="border: 1px solid black"></iframe>
         </div>
-        
+        <div class="p-10">
             <h2 class="text-3xl font-semibold text-gray-800 md:text-4xl">{{ body.about.title }}</h2>
-            <h3 class="text-xl font-semibold text-gray-800 md:text-2xl">{{ body.about.story.title }}</h3>
-            <p>{{ body.about.story.content }}</p>
-            <h3 class="text-xl font-semibold text-gray-800 md:text-2xl">{{ body.about.team.title }}</h3>
-            <p>{{ body.about.team.content }}</p>
-        
+            <div class="flex flex-col md:flex-row justify-between items-start">
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-800 md:text-2xl">{{ body.about.story.title }}</h3>
+                    <p>{{ body.about.story.content }}</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-800 md:text-2xl">{{ body.about.team.title }}</h3>
+                    <p>{{ body.about.team.content }}</p>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col md:flex-row justify-between items-start bg-gray-300 shadow-lg p-10">
             <h2 class="text-3xl font-semibold text-gray-800 md:text-4xl">{{ body.workshop.title }}</h2>
             <p>{{ body.workshop.content }}</p>
-        
+        </div>
+        <div class="flex flex-col md:flex-row justify-between items-start p-10">
             <h2 id="sortiment" class="text-3xl font-semibold text-gray-800 md:text-4xl">{{ body.sortiment.title }}</h2>
             <p>{{ body.sortiment.content }}</p>
+        </div>
     </div>
 </body>
 </html>
