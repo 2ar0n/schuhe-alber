@@ -9,19 +9,24 @@ body:
   tagline: "Dein nächstes Paar Schuhe"
   introduction: "Ihr Schuhgeschäft in Schenna oberhalb Meran mit einem reichen Sortiment an Stadt- und Wanderschuhe für die ganze Familie."
   access:
-    title: "Zugang"
+    title: "Kontakt"
     adress:
-      l1: "Erzherzog Johann Platz 5"
-      l2: "39017 Schenna"
+      l1: "Alber Hermann & Co. Kg"
+      l2: "Erzherzog Johann Platz 5"
+      l3: "I-39017 Schenna"
     phone: "+39-473-945-644"
-    mobile: "+39-335-704-4575"
     email: "schuhe.alber@rolmail.net"
-    hours: "9:00-18:00"
+  opening:
+      title: "Öffnungszeiten"
+      l1: "Mo-Fr"
+      l2: "8.30-12.00 und 15.00-18.00"
+      l3: "Samstag"
+      l4: "8.30-12.00"
   about:
     title: "Über uns"
     story:
       title: "Geschichte"
-      content: "Text zur Geschichte"
+      content: "Im Jahre 1945 erlernte Josef Alber das Orthopädieschuster-Handwerk und arbeitete mit voller Begeisterung in seiner kleinen Werkstatt im Leimguberhaus im Zentrum von Schenna. 1956 wurde ein neues Geschäftslokal dazu gebaut. Schon damals wie heute noch, wurde auf perfekte Passform und höchste Qualität geachtet. Als familiengeführter Betrieb verfügen wir über eine jahrelange Erfahrung und Expertise und setzen dabei auf fachkompetente und ehrliche Beratung."
     team:
       title: "Team"
       content: "Text zum Team"
