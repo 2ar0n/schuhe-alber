@@ -1,13 +1,14 @@
 language: "de"
 
 meta:
-  title: "Schuhe Alber - Schuhgeschäft Schenna"
+  title: "Schuhe Alber"
+  subtitle: "Schuhgeschäft Schenna"
   description: "Ihr Schuhgeschäft in Schenna."
   keywords: "Schuhe, Wandern, Schenna, Meran, Süd Tirol"
 
 body:
   tagline: "Dein nächstes Paar Schuhe"
-  introduction: "Ihr Schuhgeschäft in Schenna oberhalb Meran mit einem reichen Sortiment an Stadt- und Wanderschuhe für die ganze Familie."
+  introduction: "Ihr Schuhgeschäft in Schenna oberhalb Meran mit einem reichen Sortiment an Stadt- und Wanderschuhen für die ganze Familie."
   access:
     title: "Kontakt"
     adress:
@@ -26,13 +27,10 @@ body:
     title: "Über uns"
     story:
       title: "Geschichte"
-      content: "Im Jahre 1945 erlernte Josef Alber das Orthopädieschuster-Handwerk und arbeitete mit voller Begeisterung in seiner kleinen Werkstatt im Leimguberhaus im Zentrum von Schenna. 1956 wurde ein neues Geschäftslokal dazu gebaut. Schon damals wie heute noch, wurde auf perfekte Passform und höchste Qualität geachtet. Als familiengeführter Betrieb verfügen wir über eine jahrelange Erfahrung und Expertise und setzen dabei auf fachkompetente und ehrliche Beratung."
-    team:
-      title: "Team"
-      content: "Text zum Team"
-  workshop:
-    title: "Werkstatt"
-    content: "Schuhreparatur OK"
+      content: "Im Jahre 1945 erlernte Josef Alber das Orthopädieschuster-Handwerk und arbeitete mit voller Begeisterung in seiner kleinen Werkstatt im Leimguberhaus im Zentrum von Schenna. 1956 wurde ein neues Geschäftslokal ausgebaut. Schon damals wie heute noch, wurde auf perfekte Passform und höchste Qualität geachtet. Als familiengeführter Betrieb verfügen wir über eine jahrelange Erfahrung und Expertise und setzen dabei auf fachkompetente und ehrliche Beratung."
+    workshop:
+      title: "Werkstatt"
+      content: "Weiterhin steht unsere Schuhwerkstatt offen für Reparaturen, Neusohlen, usw."
   sortiment:
     title: "Sortiment"
     content: "La sportiva, Scarpa, Salomon"
