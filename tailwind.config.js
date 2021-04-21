@@ -8,10 +8,14 @@ module.exports = {
   },
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
-    maxWidth: {
-      '1/2': '50%',
-     }
+    extend: {
+      maxWidth: {
+        'logo': '10rem'
+       },
+      maxHeight: {
+        'logo': '5rem'
+       }
+    }
   },
   variants: {
     extend: {},
