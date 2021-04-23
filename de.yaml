@@ -33,4 +33,14 @@ body:
       content: "Weiterhin steht unsere Schuhwerkstatt offen für Reparaturen, Neusohlen, usw."
   sortiment:
     title: "Sortiment"
-    content: "La sportiva, Scarpa, Salomon"
+    fashion:
+      title: "Mode"
+      description: "Vom Klassiker bis hin zum extravaganten Unikat, bei uns finden Sie immer die neuesten Trends der italienischen Topmarken. Auch für unsere kleinen Kunden haben wir eine tolle und große Auswahl, ob Sandalen, Sneakers oder Wanderschuhe."
+      women: "Damenschuhe"
+      men: "Herrenschuhe"
+      kids: "Kinderschuhe"
+    sport:
+      title: "Berg- und Freizeit"
+      description: "Unser großes Berg- und Sportsortiment der weltweit führenden Marken hat bestimmt für jede Herausforderung das passende Schuhwerk. Dabei wir stehts auf perfekte Passform und höchste Qualität geachtet. Ob Extremsportler, Hobbysportler oder gemütlicher Wanderer, bei uns sind alle gut aufgehoben."
+      shoes: "Schuhe"
+      accessories: "Zubehör"

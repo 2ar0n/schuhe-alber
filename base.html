@@ -75,10 +75,10 @@
             <h2 id="sortiment" class="text-3xl font-semibold text-gray-800 md:text-4xl">{{ body.sortiment.title }}</h2>
             <div class="flex flex-row flex-wrap justify-around">
                 <div class="max-w-3xl">
-                    <h3 class="text-xl font-semibold text-gray-800 md:text-2xl">Mode</h3>
-                    <p>Vom Klassiker bis hin zum extravaganten Unikat, bei uns finden Sie immer die neuesten Trends der italienischen Topmarken. Auch für unsere kleinen Kunden haben wir eine tolle und große Auswahl, ob Sandalen, Sneakers oder Wanderschuhe.</p>
+                    <h3 class="text-xl font-semibold text-gray-800 md:text-2xl">{{ body.sortiment.fashion.title }}</h3>
+                    <p>{{ body.sortiment.fashion.description }}</p>
                     <button class="collapsible-button hover:bg-gray-800 text-gray-800 hover:text-green-100">
-                        <h4 class="text-md font-semibold md:text-xl">Damenschuhe</h4>
+                        <h4 class="text-md font-semibold md:text-xl">{{ body.sortiment.fashion.women }}</h4>
                     </button>
                     <div class="flex flex-row flex-wrap items-center space-x-5 collapsible-content">
                         <div class="max-w-logo"><img class="max-h-logo" src="/assets/brands_logo/nerogiardini.png"></div>
@@ -90,7 +90,7 @@
                         <div class="max-w-logo"><img class="max-h-logo" src="/assets/brands_logo/ecco.png"></div>
                     </div>
                     <button class="collapsible-button hover:bg-gray-800 text-gray-800 hover:text-green-100">
-                        <h4 class="text-md font-semibold md:text-xl">Herrenschuhe</h4>
+                        <h4 class="text-md font-semibold md:text-xl">{{ body.sortiment.fashion.men }}</h4>
                     </button>
                     <div class="flex flex-row flex-wrap items-center space-x-5 collapsible-content">
                         <div class="max-w-logo"><img class="max-h-logo" src="/assets/brands_logo/nerogiardini.png"></div>
@@ -100,7 +100,7 @@
                         <div class="max-w-logo"><img class="max-h-logo" src="/assets/brands_logo/gravati.png"></div>
                     </div>
                     <button class="collapsible-button hover:bg-gray-800 text-gray-800 hover:text-green-100">
-                        <h4 class="text-md font-semibold md:text-xl">Kinderschuhe</h4>
+                        <h4 class="text-md font-semibold md:text-xl">{{ body.sortiment.fashion.kids }}</h4>
                     </button>
                     <div class="flex flex-row flex-wrap items-center space-x-5 collapsible-content">
                         <div class="max-w-logo"><img class="max-h-logo" src="/assets/brands_logo/naturino.png"></div>
@@ -110,10 +110,10 @@
                     </div>
                 </div>
                 <div class="max-w-3xl">
-                    <h3 class="text-xl font-semibold text-gray-800 md:text-2xl">Berg- und Freizeit</h3>
-                    <p>Unser großes Berg- und Sportsortiment der weltweit führenden Marken hat bestimmt für jede Herausforderung das passende Schuhwerk. Dabei wir stehts auf perfekte Passform und höchste Qualität geachtet. Ob Extremsportler, Hobbysportler oder gemütlicher Wanderer, bei uns sind alle gut aufgehoben.</p>
+                    <h3 class="text-xl font-semibold text-gray-800 md:text-2xl">{{ body.sortiment.sport.title }}</h3>
+                    <p>{{ body.sortiment.sport.description }}</p>
                     <button class="collapsible-button hover:bg-gray-800 text-gray-800 hover:text-green-100">
-                        <h4 class="text-md font-semibold md:text-xl">Schuhe</h4>
+                        <h4 class="text-md font-semibold md:text-xl">{{ body.sortiment.sport.shoes }}</h4>
                     </button>
                     <div class="flex flex-row flex-wrap items-center space-x-5 collapsible-content">
                         <div class="max-w-logo"><img class="max-h-logo" src="/assets/brands_logo/aku.png"></div>
@@ -126,7 +126,7 @@
                         <div class="max-w-logo"><img class="max-h-logo" src="/assets/brands_logo/fitwell.png"></div>
                     </div>
                     <button class="collapsible-button hover:bg-gray-800 text-gray-800 hover:text-green-100">
-                        <h4 class="text-md font-semibold md:text-xl">Zubehör</h4>
+                        <h4 class="text-md font-semibold md:text-xl">{{ body.sortiment.sport.accessories }}</h4>
                     </button>
                     <div class="flex flex-row flex-wrap items-center space-x-5 collapsible-content">
                         <div class="max-w-logo"><img class="max-h-logo" src="/assets/brands_logo/accapi.png"></div>
