@@ -1,9 +1,46 @@
 language: "en"
 
 meta:
-  title: "Schuhe Alber - Schoe shop in Schenna"
+  title: "Schuhe Alber"
+  subtitle: "Schoe shop in Schenna"
   description: "Your shoe shop in Scenna."
   keywords: "Shoes, hiking, Schenna, Meran, South Tirol"
 
 body:
-  introduction: "nothing"
+  tagline: "Your next pair of shoes"
+  introduction: "Your shoe shop in Schenna with a wide offering of hiking and fashion shoes."
+  access:
+    title: "Contact"
+    adress:
+      l1: "Alber Hermann & Co. Kg"
+      l2: "Piazza Arciduca Giovanni 5"
+      l3: "I-39017 Scena"
+    phone: "+39-473-945-644"
+    email: "schuhe.alber@rolmail.net"
+  opening:
+      title: "Opening hours"
+      l1: "Mo-Fr"
+      l2: "8.30-12.00 e 15.00-18.00"
+      l3: "Saturday"
+      l4: "8.30-12.00"
+  about:
+    title: "About us"
+    story:
+      title: "Story"
+      content: "In 1945 Josef Alber started his apprenticeship in shoemaking, scpiecialising in orthopeadics. He learned full of passion in the small workshop of the Leimguber house in the center of Schenna. 1956 a first shop was openened. Still today, we prioritize highest craftmanship and perfect shaping of the shoe. As a family-owned business we have a longlasting experience and expertise while offering competent and honest conselling."
+    workshop:
+      title: "Workshop"
+      content: "We also offer shoe repairs."
+  sortiment:
+    title: "Sortiment"
+    fashion:
+      title: "Fashion"
+      description: "Vom Klassiker bis hin zum extravaganten Unikat, bei uns finden Sie immer die neuesten Trends der italienischen Topmarken. Auch für unsere kleinen Kunden haben wir eine tolle und große Auswahl, ob Sandalen, Sneakers oder Wanderschuhe."
+      women: "Women"
+      men: "Men"
+      kids: "Kids"
+    sport:
+      title: "Hiking and running"
+      description: "Unser großes Berg- und Sportsortiment der weltweit führenden Marken hat bestimmt für jede Herausforderung das passende Schuhwerk. Dabei wir stehts auf perfekte Passform und höchste Qualität geachtet. Ob Extremsportler, Hobbysportler oder gemütlicher Wanderer, bei uns sind alle gut aufgehoben."
+      shoes: "Shoes"
+      accessories: "Accessories"

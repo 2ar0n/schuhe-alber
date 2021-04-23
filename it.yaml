@@ -1,9 +1,46 @@
 language: "it"
 
 meta:
-  title: "Calzature Alber - Negozio di calzature a Scena"
+  title: "Calzature Alber"
+  subtitle: "Negozio di calzature a Scena"
   description: "Il vostro neogzio to calzature a Scena."
   keywords: "Calze, camminare, Scena, Merano, Alto Adige"
 
 body:
-  introduction: "niente"
+  tagline: "Le tue prossime scarpe"
+  introduction: "Il tuo negozio di scarpature a Scena"
+  access:
+    title: "Contatto"
+    adress:
+      l1: "Alber Hermann & Co. Kg"
+      l2: "Piazza Arciduca Giovanni 5"
+      l3: "I-39017 Scena"
+    phone: "+39-473-945-644"
+    email: "schuhe.alber@rolmail.net"
+  opening:
+      title: "Aperture"
+      l1: "Lu-Ve"
+      l2: "8.30-12.00 e 15.00-18.00"
+      l3: "Sabato"
+      l4: "8.30-12.00"
+  about:
+    title: "Su di noi"
+    story:
+      title: "Storia"
+      content: "Im Jahre 1945 erlernte Josef Alber das Orthopädieschuster-Handwerk und arbeitete mit voller Begeisterung in seiner kleinen Werkstatt im Leimguberhaus im Zentrum von Schenna. 1956 wurde ein neues Geschäftslokal ausgebaut. Schon damals wie heute noch, wurde auf perfekte Passform und höchste Qualität geachtet. Als familiengeführter Betrieb verfügen wir über eine jahrelange Erfahrung und Expertise und setzen dabei auf fachkompetente und ehrliche Beratung."
+    workshop:
+      title: "Werkstatt"
+      content: "Weiterhin steht unsere Schuhwerkstatt offen für Reparaturen, Neusohlen, usw."
+  sortiment:
+    title: "Sortimente"
+    fashion:
+      title: "Mode"
+      description: "Vom Klassiker bis hin zum extravaganten Unikat, bei uns finden Sie immer die neuesten Trends der italienischen Topmarken. Auch für unsere kleinen Kunden haben wir eine tolle und große Auswahl, ob Sandalen, Sneakers oder Wanderschuhe."
+      women: "Donne"
+      men: "Signori"
+      kids: "Bambini"
+    sport:
+      title: "Berg- und Freizeit"
+      description: "Unser großes Berg- und Sportsortiment der weltweit führenden Marken hat bestimmt für jede Herausforderung das passende Schuhwerk. Dabei wir stehts auf perfekte Passform und höchste Qualität geachtet. Ob Extremsportler, Hobbysportler oder gemütlicher Wanderer, bei uns sind alle gut aufgehoben."
+      shoes: "Schuhe"
+      accessories: "Zubehör"

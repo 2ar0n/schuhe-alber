@@ -18,7 +18,7 @@ while true; do
         hash=($hash)
         if [ "$hash" != "${hashes[$n]}" ]; then
             source "$DIR/compile_css.bash"
-            python "$DIR/generate_pages.py" "--preview"
+            python "$DIR/generate_pages.py"
         fi
     done
 done
