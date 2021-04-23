@@ -36,6 +36,12 @@
     color: #2b6cb0;  /*Set to match the Tailwind colour you want the active one to be */
 }
 
+.collapsible-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
 
 @import "tailwindcss/base";
 @import "tailwindcss/components";
