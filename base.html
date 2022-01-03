@@ -63,14 +63,14 @@
                 </div>
             </div>
         </div>
-        <div class="relative bg-gray-300 p-10 bg-fixed bg-repeat" style="height: 80vh; background-image: url(/assets/footprint-shoe.jpg)">
+        <!-- <div class="relative bg-gray-300 p-10 bg-fixed bg-repeat" style="height: 80vh; background-image: url(/assets/footprint-shoe.jpg)">
             <img class="absolute w-96 left-40 top-20 z-10" src="assets/pictures/shoes/hiking2.jpg">
-            <img class="absolute w-72 right-1/3 top-16 z-30" src="assets/pictures/shoes/hiking1.jpg">
-            <img class="absolute h-72 left-1/4 bottom-16 z-50" src="assets/pictures/shoes/hiking3.jpg">
+            <img class="absolute w-72 right-1/3 top-16 z-30" src="assets/pictures/image3.jpg">
+            <img class="absolute h-72 left-1/4 bottom-16 z-50" src="assets/pictures/image2.jpg">
             <img class="absolute w-96 z-10 left-2/3 bottom-10" src="assets/pictures/shoes/hiking4.jpg">
             <img class="absolute h-64 left-1/2 bottom-20 z-50" src="assets/pictures/shoes/running1.jpg">
             <img class="absolute w-96 left-1/3 top-5 z-20" src="assets/pictures/shoes/running2.jpg">
-        </div>
+        </div> -->
         <div class="relative bg-green-100 p-10">
             <h2 id="sortiment" class="text-3xl font-semibold text-gray-800 md:text-4xl">{{ body.sortiment.title }}</h2>
             <div class="flex flex-row flex-wrap justify-around">
@@ -139,62 +139,67 @@
         <div class="flex flex-col md:flex-row justify-between items-start shadow-lg">
             <div class="carousel relative">
                 <div class="carousel-inner relative overflow-hidden w-full">
-                    <!--Slide 1-->
                     <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
                     <div class="carousel-item absolute opacity-0" style="overflow: hidden;">
                         <div class="block w-full justify-center"><img src="/assets/pictures/innen.jpg"></div>
                     </div>
-                    <label for="carousel-5" class="prev control-1 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto">&lt;</label>
-                    <label for="carousel-2" class="next control-1 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto">&gt;</label>
-                    
-                    <!--Slide 2-->
-                    <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+                    <label for="carousel-6" class="prev control-1 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto">&lt;</label>
+                    <label for="carousel-3" class="next control-1 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto">&gt;</label>
+
+                    <!-- <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+                    <div class="carousel-item absolute opacity-0" style="overflow: hidden;">
+                        <div class="block w-full justify-center"><img src="/assets/pictures/image1.jpg"></div>
+                    </div>
+                    <label for="carousel-1" class="prev control-2 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto">&lt;</label>
+                    <label for="carousel-3" class="next control-2 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto">&gt;</label>  -->
+
+                    <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
                     <div class="carousel-item absolute opacity-0" style="overflow: hidden;">
                         <div class="block w-full justify-center"><img src="/assets/pictures/schuhe.jpg"></div>
                     </div>
-                    <label for="carousel-1" class="prev control-2 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto">&lt;</label>
-                    <label for="carousel-3" class="next control-2 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto">&gt;</label> 
-                    
-                    <!--Slide 3-->
-                    <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+                    <label for="carousel-1" class="prev control-3 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto">&lt;</label>
+                    <label for="carousel-4" class="next control-3 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto">&gt;</label>
+
+                    <input class="carousel-open" type="radio" id="carousel-4" name="carousel" aria-hidden="true" hidden="">
                     <div class="carousel-item absolute opacity-0" style="overflow: hidden;">
                         <div class="block w-full justify-center"><img src="/assets/pictures/wanderschuhe.jpg"></div>
                     </div>
-                    <label for="carousel-2" class="prev control-3 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto">&lt;</label>
-                    <label for="carousel-4" class="next control-3 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto">&gt;</label>
-                    
-                    <!--Slide 4-->
-                    <input class="carousel-open" type="radio" id="carousel-4" name="carousel" aria-hidden="true" hidden="">
+                    <label for="carousel-3" class="prev control-4 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto">&lt;</label>
+                    <label for="carousel-5" class="next control-4 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto">&gt;</label>
+
+                    <input class="carousel-open" type="radio" id="carousel-5" name="carousel" aria-hidden="true" hidden="">
                     <div class="carousel-item absolute opacity-0" style="overflow: hidden;">
                         <div class="block w-full justify-center"><img src="/assets/pictures/opa_werkstatt.jpg"></div>
                     </div>
-                    <label for="carousel-3" class="prev control-4 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto">&lt;</label>
-                    <label for="carousel-5" class="next control-4 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto">&gt;</label>
-                    
-                    <!--Slide 5-->
-                    <input class="carousel-open" type="radio" id="carousel-5" name="carousel" aria-hidden="true" hidden="">
+                    <label for="carousel-4" class="prev control-5 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto">&lt;</label>
+                    <label for="carousel-6" class="next control-5 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto">&gt;</label>
+
+                    <input class="carousel-open" type="radio" id="carousel-6" name="carousel" aria-hidden="true" hidden="">
                     <div class="carousel-item absolute opacity-0" style="overflow: hidden;">
                         <div class="block w-full justify-center"><img src="/assets/pictures/haus_frueher.jpg"></div>
                     </div>
-                    <label for="carousel-4" class="prev control-5 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto">&lt;</label>
+                    <label for="carousel-5" class="prev control-5 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto">&lt;</label>
                     <label for="carousel-1" class="next control-5 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto">&gt;</label>
 
                     <!-- Add additional indicators for each slide-->
                     <ol class="carousel-indicators">
                         <li class="inline-block mr-3">
-                            <label for="carousel-1" class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">o</label>
+                            <label for="carousel-1" class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
                         </li>
                         <li class="inline-block mr-3">
-                            <label for="carousel-2" class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">o</label>
+                            <label for="carousel-2" class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
                         </li>
                         <li class="inline-block mr-3">
-                            <label for="carousel-3" class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">o</label>
+                            <label for="carousel-3" class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
                         </li>
                         <li class="inline-block mr-3">
-                            <label for="carousel-4" class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">o</label>
+                            <label for="carousel-4" class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
                         </li>
                         <li class="inline-block mr-3">
-                            <label for="carousel-5" class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">o</label>
+                            <label for="carousel-5" class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
+                        </li>
+                        <li class="inline-block mr-3">
+                            <label for="carousel-6" class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
                         </li>
                     </ol>
                 </div>
@@ -224,7 +229,7 @@
                     <p>{{ body.access.adress.l3 }}</p>
                 </a>
                 <p>{{ body.access.phone }}</p>
-                <p>{{ body.access.email }}</p>
+                <a href="mailto:{{ body.access.email }}">{{ body.access.email }}</a>
                 <a href="https://www.facebook.com/schuhe.alber/" class="underline"><p>Facebook</p></a>
             </div>
             <div class="bg-white rounded-2xl p-8 text-center h-72 max-w-sm mx-auto z-20 mt-10 shadow-lg">

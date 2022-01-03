@@ -7,7 +7,7 @@ import argparse
 
 parser = argparse.ArgumentParser(description="Generate website pages.")
 parser.add_argument("--port", type=int, default=8080, help="port to serve")
-parser.add_argument("--dir", default=None, help="dir to serve")
+parser.add_argument("--dir", default="_site", help="dir to serve")
 
 args = parser.parse_args()
 
